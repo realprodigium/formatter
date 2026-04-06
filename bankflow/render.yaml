@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bankflow-web
+    env: docker
+    region: oregon
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    branch: main
+    autoDeploy: true
