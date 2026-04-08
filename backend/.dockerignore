@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+.venv
+.pdm-build
+.git
+.github
+secure_storage/*
+!secure_storage/.gitkeep
+.env
+tests/
